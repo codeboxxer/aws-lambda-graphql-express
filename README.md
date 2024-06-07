@@ -1,4 +1,3 @@
-
 # aws-lambda-express-graphql
 
 This is a demo project showing how you can use [express-graphql](https://github.com/graphql/express-graphql) on **AWS Lambda**. In the real world, you might want to use [graphql-server-lambda](https://github.com/apollographql/graphql-server/tree/master/packages/graphql-server-lambda) (because [reasons](https://github.com/apollographql/graphql-server#differences-to-express-graphql)), but this might help quickly prototype a GraphQL API.
