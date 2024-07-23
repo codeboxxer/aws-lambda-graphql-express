@@ -27,4 +27,3 @@ if (!process.env.LAMBDA_TASK_ROOT) {
 }
 
 module.exports.handler = (event, context) => proxy(server, event, context);
-
