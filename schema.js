@@ -17,6 +17,7 @@ const Query = new GraphQLObjectType({
   })
 });
 
+
 const Mutation = new GraphQLObjectType({
   name: 'Mutation',
   description: 'The mutation type defines how GraphQL operations change data.',
