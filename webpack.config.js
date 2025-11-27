@@ -13,6 +13,7 @@ module.exports = {
   },
   target: 'node',
   externals: [externals()],
+  
   module: {
     rules: [
       { test:/\.js$/, use:'babel-loader', exclude: /node_modules/ },
