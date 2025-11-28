@@ -2,7 +2,6 @@
 
 const { GraphQLSchema, GraphQLObjectType, GraphQLString } = require('graphql');
 
-
 const Query = new GraphQLObjectType({
   name: 'Query',
   description: 'The root type defines how GraphQL operations begin. It is the entry point to constructing GraphQL queries.',
